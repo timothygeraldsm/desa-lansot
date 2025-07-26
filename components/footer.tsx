@@ -48,18 +48,11 @@ export function Footer() {
             <h3 className="font-semibold text-lg">Media Sosial</h3>
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="https://www.facebook.com/share/1Xtn845Eyi/?mibextid=qi2Omg"
                 className="flex items-center justify-center w-12 h-12 bg-gray-800 hover:bg-primary rounded-lg transition-colors duration-200"
               >
                 <Facebook className="h-6 w-6" />
                 <span className="sr-only">Facebook</span>
-              </Link>
-              <Link
-                href="#"
-                className="flex items-center justify-center w-12 h-12 bg-gray-800 hover:bg-primary rounded-lg transition-colors duration-200"
-              >
-                <Instagram className="h-6 w-6" />
-                <span className="sr-only">Instagram</span>
               </Link>
             </div>
             <p className="text-sm text-gray-400 leading-relaxed">
