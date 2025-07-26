@@ -84,27 +84,17 @@ export default function GeografiPage() {
             Peta Lokasi Desa Lansot
           </CardTitle>
         </CardHeader>
-        <CardContent className="space-y-8">
-          <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl flex items-center justify-center border-2 border-dashed border-blue-200">
-            <div className="text-center space-y-4">
-              <div className="p-6 bg-white rounded-full shadow-lg">
-                <MapPin className="h-16 w-16 mx-auto text-blue-600" />
-              </div>
-              <div className="space-y-2">
-                <p className="text-2xl font-bold text-gray-900">Peta Desa Lansot</p>
-                <p className="text-lg text-gray-600">Koordinat: 1°23'02" LU, 124°73'85" BT</p>
-                <Badge variant="outline" className="bg-white text-blue-700 border-blue-200 px-4 py-2">
-                  Kecamatan Tareran, Minahasa Selatan
-                </Badge>
-              </div>
-            </div>
-          </div>
-          <div className="text-center p-6 bg-blue-50 rounded-lg">
-            <p className="text-base text-gray-700 leading-relaxed">
-              <strong>Catatan:</strong> Peta interaktif akan segera tersedia. Untuk sementara, Anda dapat menggunakan
-              koordinat di atas untuk mencari lokasi di aplikasi peta digital seperti Google Maps atau aplikasi navigasi
-              lainnya.
-            </p>
+                <CardContent className="space-y-8">
+          <div className="aspect-video bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl flex items-center justify-center border-2 border-dashed border-blue-200 overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.54080723952!2d125.05186249999998!3d1.3610885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32871abb6d8cd68d%3A0xb594df62ef9f99a2!2sLansot%2C%20Kema%2C%20North%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1753559634581!5m2!1sen!2sid"
+              width="100%"
+              height="100%"
+              style={{ border: 0, minHeight: 350 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </CardContent>
       </Card>
