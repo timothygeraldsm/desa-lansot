@@ -10,7 +10,7 @@ export default function LayananPage() {
       position: "Hukum Tua",
       name: "JUSUF D. KARUNDENG, S.E",
       phone: "081524519809",
-      photo: "/placeholder.svg?height=120&width=120",
+      photo: "/public/foto/Hukum Tua.jpg",
     },
     {
       position: "Sekretaris Desa",
