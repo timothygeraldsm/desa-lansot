@@ -158,23 +158,17 @@ export default function LayananPage() {
                 className="flex flex-col items-center p-8 bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100"
               >
                 {/* Profile Photo */}
-                                <div className="relative mb-6">
-                  <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-lg">
+                <div className="relative mb-6">
+                  <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-lg">
                     <Image
                       src={staff.photo || "/placeholder.svg"}
                       alt={`Foto ${staff.name}`}
-                      width={128}
-                      height={128}
+                      width={96}
+                      height={96}
                       className="w-full h-full object-cover"
                       crossOrigin="anonymous"
                     />
                   </div>
-                  <div className="absolute -bottom-2 -right-2">
-                    <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200 text-xs px-2 py-1">
-                      Aktif
-                    </Badge>
-                  </div>
-                </div>
                   <div className="absolute -bottom-2 -right-2">
                     <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200 text-xs px-2 py-1">
                       Aktif
