@@ -159,22 +159,23 @@ export default function LayananPage() {
               >
                 {/* Profile Photo */}
                 <div className="relative mb-6">
-                  <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-white shadow-lg">
-                    <Image
-                      src={staff.photo || "/placeholder.svg"}
-                      alt={`Foto ${staff.name}`}
-                      width={96}
-                      height={96}
-                      className="w-full h-full object-cover"
-                      crossOrigin="anonymous"
-                    />
-                  </div>
-                  <div className="absolute -bottom-2 -right-2">
-                    <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200 text-xs px-2 py-1">
-                      Aktif
-                    </Badge>
-                  </div>
-                </div>
+  <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white shadow-lg">
+    <Image
+      src={staff.photo || "/placeholder.svg"}
+      alt={`Foto ${staff.name}`}
+      width={112}
+      height={112}
+      className="w-full h-full object-cover object-center"
+      crossOrigin="anonymous"
+    />
+  </div>
+  <div className="absolute -bottom-2 -right-2">
+    <Badge variant="outline" className="bg-green-50 text-green-700 border-green-200 text-xs px-2 py-1">
+      Aktif
+    </Badge>
+  </div>
+</div>
+
 
                 {/* Staff Information */}
                 <div className="text-center space-y-3 flex-1">
