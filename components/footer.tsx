@@ -25,24 +25,40 @@ export function Footer() {
           </div>
 
           <div className="space-y-6">
-            <h3 className="font-semibold text-lg">Kontak</h3>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-3 text-gray-300">
-                <Phone className="h-5 w-5 text-primary" />
-                <div>
-                  <p className="font-medium text-white">Layanan Informasi Desa</p>
-                  <p className="text-sm">0895331376944</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-3 text-gray-300">
-                <Phone className="h-5 w-5 text-primary" />
-                <div>
-                  <p className="font-medium text-white">Polres Minahasa Selatan</p>
-                  <p className="text-sm">(0430) 22241</p>
-                </div>
-              </div>
-            </div>
-          </div>
+  <h3 className="font-semibold text-lg">Kontak</h3>
+  <div className="space-y-4">
+    <div className="flex items-center space-x-3 text-gray-300">
+      <Phone className="h-5 w-5 text-primary" />
+      <div>
+        <p className="font-medium text-white">Layanan Informasi Desa</p>
+        <a
+          href="https://wa.me/62895331376944?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20informasi%20Desa%20Lansot."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm hover:underline text-gray-300"
+        >
+          0895331376944
+        </a>
+      </div>
+    </div>
+
+    <div className="flex items-center space-x-3 text-gray-300">
+      <Phone className="h-5 w-5 text-primary" />
+      <div>
+        <p className="font-medium text-white">Polres Minahasa Selatan</p>
+        <a
+          href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20menghubungi%20Polres%20Minahasa%20Selatan."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm hover:underline text-gray-300"
+        >
+          (0430) 22241
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
           <div className="space-y-6">
             <h3 className="font-semibold text-lg">Media Sosial</h3>
