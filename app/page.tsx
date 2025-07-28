@@ -56,35 +56,50 @@ export default function HomePage() {
             </CardContent>
           </Card>
 
-          {/* Phone */}
-          <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-  <CardHeader className="flex flex-col items-center space-y-4 pb-6">
+         {/* Phone */}
+<Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+  <CardHeader className="flex flex-col items-center space-y-4 pb-4">
     <div className="p-4 bg-green-100 rounded-xl">
       <Phone className="h-8 w-8 text-green-600" />
     </div>
-    <CardTitle className="text-lg font-semibold text-gray-900 text-center">Telepon Aduan</CardTitle>
+    <CardTitle className="text-lg font-semibold text-gray-900 text-center">
+      Telepon Aduan
+    </CardTitle>
   </CardHeader>
-  <CardContent className="text-center space-y-3">
-    <div className="space-y-2">
+  <CardContent className="text-center space-y-4">
+    {/* Nomor WA */}
+    <div className="space-y-1">
       <a
         href="https://wa.me/62895331376944?text=Halo%2C%20saya%20ingin%20menyampaikan%20aduan%20terkait%20desa."
         target="_blank"
         rel="noopener noreferrer"
         className="text-base font-bold text-green-700 hover:underline"
       >
-        0895331376944
+        0895 3313 76944
       </a>
       <p className="text-sm text-gray-600">Layanan Informasi Desa</p>
+    </div>
+
+    {/* Telepon Polres */}
+    <div className="space-y-1">
       <a
         href="tel:043022241"
         className="text-base font-bold text-gray-900 hover:underline"
       >
         (0430) 22241
       </a>
-      <p className="text-sm text-gray-600">Polres Minahasa Selatan</p>
+      <a
+        href="https://www.google.com/search?q=Polres+Minahasa+Selatan"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-gray-600 hover:underline"
+      >
+        Polres Minahasa Selatan
+      </a>
     </div>
   </CardContent>
 </Card>
+
 
         </div>
       </section>
