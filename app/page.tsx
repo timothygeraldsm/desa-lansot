@@ -57,36 +57,24 @@ export default function HomePage() {
           </Card>
 
           {/* Phone */}
-<Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
-  <CardHeader className="flex flex-col items-center space-y-4 pb-6">
-    <div className="p-4 bg-green-100 rounded-xl">
-      <Phone className="h-8 w-8 text-green-600" />
-    </div>
-    <CardTitle className="text-lg font-semibold text-gray-900 text-center">Telepon Aduan</CardTitle>
-  </CardHeader>
-  <CardContent className="text-center space-y-3">
-    <div className="space-y-2">
-      <a
-        href="https://wa.me/62895331376944?text=Halo%2C%20saya%20ingin%20menyampaikan%20aduan%20terkait%20desa."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-base font-bold text-green-700 hover:underline"
-      >
-        0895331376944
-      </a>
-      <p className="text-sm text-gray-600">Layanan Informasi Desa</p>
-
-      <a
-        href="tel:043022241"
-        className="text-base font-bold text-gray-900 hover:underline"
-      >
-        (0430) 22241
-      </a>
-      <p className="text-sm text-gray-600">Polres Minahasa Selatan</p>
-    </div>
-  </CardContent>
-</Card>
-
+          <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+            <CardHeader className="flex flex-col items-center space-y-4 pb-6">
+              <div className="p-4 bg-green-100 rounded-xl">
+                <Phone className="h-8 w-8 text-green-600" />
+              </div>
+              <CardTitle className="text-lg font-semibold text-gray-900 text-center">Telepon Aduan</CardTitle>
+            </CardHeader>
+            <CardContent className="text-center space-y-3">
+              <div className="space-y-2">
+                <div className="text-base font-bold text-gray-900">0895331376944</div>
+                <p className="text-sm text-gray-600">Layanan Informasi Desa</p>
+                <div className="text-base font-bold text-gray-900">(0430) 22241</div>
+                <p className="text-sm text-gray-600">Polres Minahasa Selatan</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
 
       {/* About Preview */}
       <section className="bg-gradient-to-r from-blue-50 to-indigo-50 py-20">
