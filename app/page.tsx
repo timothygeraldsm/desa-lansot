@@ -56,8 +56,7 @@ export default function HomePage() {
             </CardContent>
           </Card>
 
-         {/* Phone */}
-<Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
+         <Card className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md">
   <CardHeader className="flex flex-col items-center space-y-4 pb-4">
     <div className="p-4 bg-green-100 rounded-xl">
       <Phone className="h-8 w-8 text-green-600" />
@@ -73,7 +72,7 @@ export default function HomePage() {
         href="https://wa.me/62895331376944?text=Halo%2C%20saya%20ingin%20menyampaikan%20aduan%20terkait%20desa."
         target="_blank"
         rel="noopener noreferrer"
-        className="text-base font-bold text-green-700 hover:underline"
+        className="text-base font-bold text-green-700 hover:underline block"
       >
         0895 3313 76944
       </a>
@@ -84,7 +83,7 @@ export default function HomePage() {
     <div className="space-y-1">
       <a
         href="tel:043022241"
-        className="text-base font-bold text-gray-900 hover:underline"
+        className="text-base font-bold text-gray-900 hover:underline block"
       >
         (0430) 22241
       </a>
@@ -92,7 +91,7 @@ export default function HomePage() {
         href="https://www.google.com/search?q=Polres+Minahasa+Selatan"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sm text-gray-600 hover:underline"
+        className="text-sm text-gray-600 hover:underline block"
       >
         Polres Minahasa Selatan
       </a>
