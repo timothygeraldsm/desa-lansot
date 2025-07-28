@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { MapPin, Phone, Facebook } from "lucide-react"
-import { FaWhatsapp } from "react-icons/fa"
 import Link from "next/link"
 
 export default function KontakPage() {
@@ -70,9 +69,7 @@ export default function KontakPage() {
       href="https://wa.me/62895331376944?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20desa."
       target="_blank"
       rel="noopener noreferrer"
-      className="flex items-center gap-2"
     >
-      <FaWhatsapp className="h-4 w-4" />
       Hubungi Sekarang
     </a>
   </Button>
@@ -92,13 +89,7 @@ export default function KontakPage() {
     size="sm"
     className="mt-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full"
   >
-    <a
-      href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20menghubungi%20Polres%20Minahasa%20Selatan."
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center gap-2"
-    >
-      <FaWhatsapp className="h-4 w-4" />
+    <a href="tel:043022241">
       Hubungi Sekarang
     </a>
   </Button>

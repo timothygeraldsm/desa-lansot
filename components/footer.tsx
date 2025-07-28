@@ -43,19 +43,18 @@ export function Footer() {
     </div>
 
     <div className="flex items-center space-x-3 text-gray-300">
-      <Phone className="h-5 w-5 text-primary" />
-      <div>
-        <p className="font-medium text-white">Polres Minahasa Selatan</p>
-        <a
-          href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20menghubungi%20Polres%20Minahasa%20Selatan."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm hover:underline text-gray-300"
-        >
-          (0430) 22241
-        </a>
-      </div>
-    </div>
+  <Phone className="h-5 w-5 text-primary" />
+  <div>
+    <p className="font-medium text-white">Polres Minahasa Selatan</p>
+    <a
+      href="tel:043022241"
+      className="text-sm text-gray-300 hover:underline"
+    >
+      (0430) 22241
+    </a>
+  </div>
+</div>
+
   </div>
 </div>
 
