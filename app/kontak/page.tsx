@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { MapPin, Phone, Facebook } from "lucide-react"
+import { FaWhatsapp } from "react-icons/fa"
 import Link from "next/link"
 
 export default function KontakPage() {
@@ -57,20 +58,52 @@ export default function KontakPage() {
               <div className="p-3 bg-green-100 rounded-lg">
                 <Phone className="h-6 w-6 text-green-600" />
               </div>
-              <div className="space-y-1">
-                <p className="text-lg font-semibold text-gray-900">Layanan Informasi Desa</p>
-                <p className="text-xl font-bold text-green-700">0895331376944</p>
-              </div>
+              <div className="space-y-2">
+  <p className="text-lg font-semibold text-gray-900">Layanan Informasi Desa</p>
+  <p className="text-xl font-bold text-green-700">0895331376944</p>
+  <Button
+    asChild
+    size="sm"
+    className="mt-2 bg-green-600 hover:bg-green-700 text-white rounded-full"
+  >
+    <a
+      href="https://wa.me/62895331376944?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20desa."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2"
+    >
+      <FaWhatsapp className="h-4 w-4" />
+      Hubungi Sekarang
+    </a>
+  </Button>
+</div>
+
             </div>
 
             <div className="flex items-center gap-4 p-6 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl">
               <div className="p-3 bg-blue-100 rounded-lg">
                 <Phone className="h-6 w-6 text-blue-600" />
               </div>
-              <div className="space-y-1">
-                <p className="text-lg font-semibold text-gray-900">Polres Minahasa Selatan</p>
-                <p className="text-xl font-bold text-blue-700">(0430) 22241</p>
-              </div>
+              <div className="space-y-2">
+  <p className="text-lg font-semibold text-gray-900">Polres Minahasa Selatan</p>
+  <p className="text-xl font-bold text-blue-700">(0430) 22241</p>
+  <Button
+    asChild
+    size="sm"
+    className="mt-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full"
+  >
+    <a
+      href="https://wa.me/6281234567890?text=Halo%2C%20saya%20ingin%20menghubungi%20Polres%20Minahasa%20Selatan."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2"
+    >
+      <FaWhatsapp className="h-4 w-4" />
+      Hubungi Sekarang
+    </a>
+  </Button>
+</div>
+
             </div>
           </CardContent>
         </Card>
