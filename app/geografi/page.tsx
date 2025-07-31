@@ -75,28 +75,29 @@ export default function GeografiPage() {
       </div>
 
       {/* Map Placeholder */}
-            <Card className="border-0 shadow-lg max-w-6xl mx-auto">
-        <CardHeader className="space-y-4 pb-8">
-          <CardTitle className="text-2xl lg:text-3xl font-bold text-gray-900 flex items-center gap-3">
-            <div className="p-3 bg-blue-100 rounded-lg">
-              <MapPin className="h-8 w-8 text-blue-600" />
-            </div>
-            Peta Lokasi Desa Lansot
-          </CardTitle>
-        </CardHeader>
-                <CardContent className="space-y-8">
-          <div className="w-full aspect-video min-h-[200px] sm:min-h-[300px] md:min-h-[350px] bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl flex items-center justify-center border-2 border-dashed border-blue-200 overflow-hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.54080723952!2d125.05186249999998!3d1.3610885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32871abb6d8cd68d%3A0xb594df62ef9f99a2!2sLansot%2C%20Kema%2C%20North%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1753559634581!5m2!1sen!2sid"
-              className="w-full h-full"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </CardContent>
-      </Card>
+<Card className="border-0 shadow-lg max-w-6xl mx-auto">
+  <CardHeader className="space-y-4 pb-8">
+    <CardTitle className="text-2xl lg:text-3xl font-bold text-gray-900 flex items-center gap-3">
+      <div className="p-3 bg-blue-100 rounded-lg">
+        <MapPin className="h-8 w-8 text-blue-600" />
+      </div>
+      Peta Lokasi Desa Lansot
+    </CardTitle>
+  </CardHeader>
+  <CardContent className="space-y-8">
+    <div className="w-full aspect-video min-h-[200px] sm:min-h-[300px] md:min-h-[350px] bg-gradient-to-br from-blue-50 to-indigo-100 rounded-xl flex items-center justify-center border-2 border-dashed border-blue-200 overflow-hidden">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.604276901564!2d124.74559999999998!3d1.2286085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x328742443b77855b%3A0xd5f7e399d2dd4222!2sLansot%2C%20Tareran%2C%20South%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1753927858548!5m2!1sen!2sid"
+        className="w-full h-full"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </CardContent>
+</Card>
+
 
       {/* Administrative Location */}
       <Card className="border-0 shadow-lg max-w-6xl mx-auto">
